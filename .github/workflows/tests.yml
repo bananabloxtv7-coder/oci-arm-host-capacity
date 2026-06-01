@@ -3,7 +3,7 @@ name: Master Trading Bot Runner
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/8 * * * *'
+    - cron: '*/7 * * * *'
 
 jobs:
   run-bot:
@@ -38,4 +38,4 @@ jobs:
           OCI_SSH_PUBLIC_KEY: ${{ secrets.OCI_SSH_PUBLIC_KEY }}
           OCI_OCPUS: 4
           OCI_MEMORY_IN_GBS: 24
-          OCI_SHAPE: VM.Standard.A1.Flex
+          OCI_SHAPE: VM.Standard.A1.Flex 
