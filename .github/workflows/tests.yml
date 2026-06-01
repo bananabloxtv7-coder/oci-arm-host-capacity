@@ -2,9 +2,6 @@ name: Master Trading Bot Runner
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/13 * * * *'
-
 jobs:
   run-bot:
     runs-on: ubuntu-latest
