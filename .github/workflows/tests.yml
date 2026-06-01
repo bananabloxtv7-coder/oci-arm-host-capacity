@@ -3,7 +3,7 @@ name: Master Trading Bot Runner
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/7 * * * *'
+    - cron: '*/13 * * * *'
 
 jobs:
   run-bot:
